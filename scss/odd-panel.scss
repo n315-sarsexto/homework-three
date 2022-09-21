@@ -1,0 +1,24 @@
+.odd-panel{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    min-height: 500px;
+    padding: 100px;
+
+    .flex-img-left{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+        .panel-text{
+            font-family: 'PT Sans', sans-serif;
+            h2{
+                font-size: 36px;
+            }p{
+                font-size: 22px;
+            }
+        }
+        
+    }
+}

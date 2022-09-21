@@ -1,0 +1,91 @@
+footer{
+    width: 100%;
+    min-height: 500px;
+    background-color: #23272a;
+
+    .footer-row{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0px;
+
+        .imagine-lang{
+            width: 20%;
+            h1{
+                font-size: 40px;
+                color: $blurple;
+                font-family: 'PT Sans', sans-serif;
+                font-weight: bolder;
+                text-transform: uppercase;
+                padding: none;
+                margin: none;
+            }
+            .lang{
+                img{
+                    width: 30px;
+                    float: left;
+                    margin-right: 5px;
+                }
+                color: #fff;
+                font-family: 'PT Sans', sans-serif;
+                font-size: 13px;
+            }
+            .social-icons{
+                width: 150px;
+                display: flex;
+                justify-content: space-between;
+                img{
+                    width: 24px;
+                }
+            }
+        }
+
+        .footer-table{
+            width: 62%;
+            font-family: 'PT Sans', sans-serif;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            .footer-table-column{
+                width: 15%;
+                h6{
+                    color: $blurple;
+                    font-size: 1em;
+                    font-weight: 100;
+                }
+                p{
+                    color: #fff;
+                }
+            }
+        }
+
+        .logo{
+            img{
+                width: 125px;
+            }
+        }
+        .button{
+            button{
+                width: 125px;
+                height: 50px;
+                background-color: $blurple;
+                color: #fff;
+                border-radius: 50px;
+                font-family: 'PT Sans', sans-serif;
+                border: 0px;
+            }
+            button:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                background-color: #7983f5;
+                cursor: pointer;
+              }
+        }
+    }
+    hr{
+        width: 65%;
+        border-color: $blurple;
+        margin: 0 auto;
+    }
+}

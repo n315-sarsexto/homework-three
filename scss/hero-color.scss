@@ -1,0 +1,17 @@
+.hero-color{
+    margin: 0 auto;
+    width: 100%;
+    min-height: 750px;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.bg-grey{
+    background-color: $dark-grey;
+}
+.bg-blurple{
+    background-color: $blurple;
+}

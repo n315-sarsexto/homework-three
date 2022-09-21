@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin-top: 20px;
+}
+nav .nav-content {
+  margin: 0 auto;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .nav-content .logo img {
+  width: 125px;
+}
+nav .nav-content .nav-links {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav .nav-content .nav-links a {
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+nav .nav-content .button {
+  width: 125px;
+}
+nav .nav-content .button button {
+  width: 125px;
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50px;
+  border: none;
+  font-family: "PT Sans", sans-serif;
+}
+nav .nav-content .button button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: #5865F2;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  min-height: 500px;
+  background-color: #23272a;
+}
+footer .footer-row {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+footer .footer-row .imagine-lang {
+  width: 20%;
+}
+footer .footer-row .imagine-lang h1 {
+  font-size: 40px;
+  color: #5865F2;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: none;
+  margin: none;
+}
+footer .footer-row .imagine-lang .lang {
+  color: #fff;
+  font-family: "PT Sans", sans-serif;
+  font-size: 13px;
+}
+footer .footer-row .imagine-lang .lang img {
+  width: 30px;
+  float: left;
+  margin-right: 5px;
+}
+footer .footer-row .imagine-lang .social-icons {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-row .imagine-lang .social-icons img {
+  width: 24px;
+}
+footer .footer-row .footer-table {
+  width: 62%;
+  font-family: "PT Sans", sans-serif;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-row .footer-table .footer-table-column {
+  width: 15%;
+}
+footer .footer-row .footer-table .footer-table-column h6 {
+  color: #5865F2;
+  font-size: 1em;
+  font-weight: 100;
+}
+footer .footer-row .footer-table .footer-table-column p {
+  color: #fff;
+}
+footer .footer-row .logo img {
+  width: 125px;
+}
+footer .footer-row .button button {
+  width: 125px;
+  height: 50px;
+  background-color: #5865F2;
+  color: #fff;
+  border-radius: 50px;
+  font-family: "PT Sans", sans-serif;
+  border: 0px;
+}
+footer .footer-row .button button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #7983f5;
+  cursor: pointer;
+}
+footer hr {
+  width: 65%;
+  border-color: #5865F2;
+  margin: 0 auto;
+}
+
+.hero-img {
+  background-color: #5865F2;
+  background-image: url("../images/banner-main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 100%;
+  height: 750px;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-img .hero-content {
+  width: 600px;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  color: #fff;
+}
+.hero-img .hero-content h1 {
+  font-size: 72px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.hero-img .hero-content p {
+  font-size: 20px;
+}
+.hero-img .hero-content .buttons {
+  width: 100%;
+  font-family: "PT Sans", sans-serif;
+}
+.hero-img .hero-content .buttons .btn-white {
+  background-color: #fff;
+  width: 250px;
+  text-align: center;
+  height: 50px;
+  border: 0px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+.hero-img .hero-content .buttons .btn-black {
+  background-color: #2c2f33;
+  color: #fff;
+  width: 275px;
+  text-align: center;
+  height: 50px;
+  border: 0px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+.hero-img .hero-content .buttons button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: #7983f5;
+  cursor: pointer;
+}
+
+.hero-color {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 750px;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.bg-grey {
+  background-color: #2c2f33;
+}
+
+.bg-blurple {
+  background-color: #5865F2;
+}
+
+.odd-panel {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 500px;
+  padding: 100px;
+}
+.odd-panel .flex-img-left {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.odd-panel .flex-img-left .panel-text {
+  font-family: "PT Sans", sans-serif;
+}
+.odd-panel .flex-img-left .panel-text h2 {
+  font-size: 36px;
+}
+.odd-panel .flex-img-left .panel-text p {
+  font-size: 22px;
+}
+
+.even-panel {
+  width: 100%;
+  min-height: 500px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+}
+.even-panel .flex-img-right {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.even-panel .flex-img-right .panel-text {
+  font-family: "PT Sans", sans-serif;
+}
+.even-panel .flex-img-right .panel-text h2 {
+  font-size: 36px;
+}
+.even-panel .flex-img-right .panel-text p {
+  font-size: 22px;
+}
+.even-panel .flex-column {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+.even-panel .flex-column h1 {
+  font-size: 52px;
+  font-weight: bolder;
+}
+.even-panel .flex-column p {
+  font-size: 22px;
+}
+.even-panel .flex-column h2 {
+  font-size: 36px;
+}
+.even-panel .flex-column button {
+  background-color: #5865F2;
+  color: #fff;
+  border: 0px;
+  border-radius: 50px;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+}
+.even-panel .flex-column button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #7983f5;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
