@@ -204,7 +204,6 @@ footer hr {
   width: 100%;
   min-height: 700px;
   position: relative;
-  z-index: -1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,13 +222,13 @@ footer hr {
 .hero-color .hero-content .hero-text h1 {
   font-size: 62px;
   font-weight: bolder;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .hero-color .hero-content .hero-text p {
   font-size: 20px;
 }
 .hero-color .hero-content .hero-text button {
-  margin-top: 40px;
+  margin-top: 30px;
   background-color: #5865F2;
   font-size: 20px;
   color: #fff;
@@ -237,6 +236,45 @@ footer hr {
   height: 50px;
   border-radius: 50px;
   border: 0px;
+}
+.hero-color .hero-content .hero-text button:hover {
+  cursor: pointer;
+  background-color: #7983f5;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.hero-color .hero-content .hero-text .buttons {
+  display: flex;
+  width: 100%;
+}
+.hero-color .hero-content .hero-text .buttons button {
+  margin-top: 20px;
+  background-color: #2c2f33;
+  font-size: 20px;
+  color: #fff;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px;
+}
+.hero-color .hero-content .hero-text .buttons button:hover {
+  cursor: pointer;
+  background-color: #36393f;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.hero-color .hero-content .hero-text .buttons .large {
+  width: 290px;
+  margin-right: 10px;
+}
+.hero-color .hero-content .hero-text .buttons .large span {
+  background-color: #5865F2;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.hero-color .hero-content .hero-text .buttons .small {
+  width: 200px;
 }
 .hero-color .hero-content .hero-text img {
   width: 200px;
@@ -254,6 +292,36 @@ footer hr {
 
 .bg-blurple {
   background-color: #5865F2;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(#5865F2, #db85f4);
+}
+
+.hero-content-column {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "PT Sans", sans-serif;
+  color: #fff;
+  margin-top: 70px;
+}
+.hero-content-column h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 100px;
+}
+.hero-content-column p {
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+}
+.hero-content-column img {
+  margin: 100px 0px;
 }
 
 .odd-panel {
@@ -367,11 +435,17 @@ footer hr {
   background-color: #2c2f33;
   color: #fff;
   border-radius: 50px;
+  border: 0;
   min-width: 200px;
   height: 50px;
   font-size: 20px;
   margin-bottom: 50px;
   padding: 5px;
+}
+.download-options .options-column .option button:hover {
+  cursor: pointer;
+  background-color: #36393f;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .download-options .options-column .experiment h1 {
   text-align: left;
@@ -388,6 +462,56 @@ footer hr {
   width: 300px;
   float: left;
   margin-bottom: 30px;
+}
+
+.hiring {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  font-family: "PT Sans", sans-serif;
+}
+.hiring .hiring-intro {
+  width: 60%;
+}
+.hiring .hiring-intro h1 {
+  font-weight: bolder;
+  font-size: 52px;
+  text-align: center;
+  margin: 100px 0px 25px 0px;
+}
+.hiring .hiring-intro p {
+  text-align: center;
+  font-size: 20px;
+  color: #2c2f33;
+}
+.hiring .hiring-panel {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+.hiring .hiring-panel .hiring-text {
+  width: 48%;
+}
+.hiring .hiring-panel .hiring-text h2 {
+  font-weight: bolder;
+  font-size: 34px;
+}
+.hiring .hiring-panel .hiring-text p {
+  font-size: 20px;
+  color: #2c2f33;
+}
+.hiring .hiring-panel .hiring-image {
+  width: 48%;
+}
+.hiring .hiring-panel .hiring-image img {
+  width: 100%;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */

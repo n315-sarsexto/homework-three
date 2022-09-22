@@ -1,0 +1,50 @@
+.hiring{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    font-family: 'PT Sans', sans-serif;
+
+    .hiring-intro{
+        width: 60%;
+        h1{
+            font-weight: bolder;
+            font-size: 52px;
+            text-align: center;
+            margin: 100px 0px 25px 0px;
+        }p{
+            text-align: center;
+            font-size: 20px;
+            color: $dark-grey;
+        }
+    }
+    .hiring-panel{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 50px;
+
+        .hiring-text{
+            width: 48%;
+            h2{
+                font-weight: bolder;
+                font-size: 34px;
+            }p{
+                font-size: 20px;
+                color: $dark-grey;
+            }
+        }
+        .hiring-image{
+            width: 48%;
+            img{
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+        
+    }
+}
