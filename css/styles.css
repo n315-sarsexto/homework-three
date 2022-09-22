@@ -202,13 +202,50 @@ footer hr {
 .hero-color {
   margin: 0 auto;
   width: 100%;
-  min-height: 750px;
+  min-height: 700px;
   position: relative;
   z-index: -1;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
+}
+.hero-color .hero-content {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-color .hero-content .hero-text {
+  width: 48%;
+  color: #fff;
+  font-family: "PT Sans", sans-serif;
+}
+.hero-color .hero-content .hero-text h1 {
+  font-size: 62px;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+.hero-color .hero-content .hero-text p {
+  font-size: 20px;
+}
+.hero-color .hero-content .hero-text button {
+  margin-top: 40px;
+  background-color: #5865F2;
+  font-size: 20px;
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px;
+}
+.hero-color .hero-content .hero-text img {
+  width: 200px;
+}
+.hero-color .hero-content .hero-image {
+  width: 50%;
+}
+.hero-color .hero-content .hero-image img {
+  width: 100%;
 }
 
 .bg-grey {
@@ -298,6 +335,59 @@ footer hr {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   background-color: #7983f5;
   cursor: pointer;
+}
+
+.download-options {
+  width: 100%;
+  min-height: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-options .options-column {
+  width: 30%;
+}
+.download-options .options-column .option {
+  background-color: #f6f6f6;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  border: 0px;
+  text-align: center;
+  max-width: 580px;
+  max-height: 600px;
+  overflow: hidden;
+  font-family: "PT Sans", sans-serif;
+  font-size: 28px;
+}
+.download-options .options-column .option button {
+  background-color: #2c2f33;
+  color: #fff;
+  border-radius: 50px;
+  min-width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+.download-options .options-column .experiment h1 {
+  text-align: left;
+  margin-top: 25px;
+  font-size: 30px;
+}
+.download-options .options-column .experiment p {
+  text-align: left;
+  font-size: 20px;
+  color: #2c2f33;
+  margin-bottom: 20px;
+}
+.download-options .options-column .experiment button {
+  width: 300px;
+  float: left;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
