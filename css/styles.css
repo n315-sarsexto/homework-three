@@ -514,4 +514,102 @@ footer hr {
   border-radius: 5px;
 }
 
+.nitro-perks {
+  width: 100%;
+  min-height: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+}
+.nitro-perks .perks-grid {
+  width: 65%;
+}
+.nitro-perks .perks-grid .perks-row {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nitro-perks .perks-grid .perks-row .perks {
+  width: 350px;
+  height: 300px;
+  padding: 50px;
+  border: 0px;
+  border-radius: 10px;
+  color: #fff;
+}
+.nitro-perks .perks-grid .perks-row .perks img {
+  width: 200px;
+}
+.nitro-perks .perks-grid .perks-row #emoji {
+  background-image: linear-gradient(135deg, #04a9a0, #23e3ee);
+}
+.nitro-perks .perks-grid .perks-row #profile {
+  background-image: linear-gradient(135deg, #4276ff, #22ebff);
+}
+.nitro-perks .perks-grid .perks-row #profile img {
+  height: 125px;
+}
+.nitro-perks .perks-grid .perks-row #boost {
+  background-image: linear-gradient(135deg, #3f71ff, #9896ff);
+}
+.nitro-perks .perks-grid .perks-row #badge {
+  background-image: linear-gradient(135deg, #827afe, #f773fa);
+}
+.nitro-perks .perks-grid .perks-row #upload {
+  background-image: linear-gradient(135deg, #f945dd, #ffc752);
+}
+.nitro-perks .perks-grid .perks-row #video {
+  background-image: linear-gradient(135deg, #f0701b, #ffc84c);
+}
+.nitro-perks .persuade {
+  width: 65%;
+  margin: 20px;
+}
+.nitro-perks .persuade h1 {
+  font-size: 48px;
+}
+.nitro-perks .persuade .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.nitro-perks .persuade .buttons button {
+  margin-top: 20px;
+  background-color: #2c2f33;
+  font-size: 20px;
+  color: #fff;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px;
+}
+.nitro-perks .persuade .buttons button:hover {
+  cursor: pointer;
+  background-color: #36393f;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.nitro-perks .persuade .buttons .large {
+  width: 290px;
+  margin-right: 10px;
+}
+.nitro-perks .persuade .buttons .large span {
+  background-color: #5865F2;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.nitro-perks .persuade .buttons .small {
+  width: 200px;
+}
+
 /*# sourceMappingURL=styles.css.map */
