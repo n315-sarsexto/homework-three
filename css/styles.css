@@ -136,6 +136,13 @@ footer .footer-row .footer-table .footer-table-column p {
 footer .footer-row .logo img {
   width: 125px;
 }
+footer .footer-row .disclaimer p {
+  margin: none;
+  padding: none;
+  font-family: "PT Sans", sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
 footer .footer-row .button button {
   width: 125px;
   height: 50px;
