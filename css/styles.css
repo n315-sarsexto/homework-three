@@ -178,18 +178,6 @@ footer hr {
     flex-direction: column;
   }
 }
-.footer-table-column {
-  width: 15%;
-}
-.footer-table-column h6 {
-  color: #5865F2;
-  font-size: 1em;
-  font-weight: 100;
-}
-.footer-table-column p {
-  color: #fff;
-}
-
 .hero-img {
   background-color: #5865F2;
   background-image: url("../images/banner-main.jpg");
