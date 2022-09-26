@@ -47,16 +47,20 @@ footer{
             font-family: 'PT Sans', sans-serif;
             padding-top: 20px;
             display: flex;
-            justify-content: space-between;
-            .footer-table-column{
-                width: 15%;
-                h6{
-                    color: $blurple;
-                    font-size: 1em;
-                    font-weight: 100;
-                }
-                p{
-                    color: #fff;
+            .footer-table-row{
+                width: 50%;
+                display: flex;
+                justify-content: space-evenly;
+                .footer-table-column{
+                    width: 15%;
+                    h6{
+                        color: $blurple;
+                        font-size: 1em;
+                        font-weight: 100;
+                    }
+                    p{
+                        color: #fff;
+                    }
                 }
             }
         }
@@ -113,17 +117,14 @@ footer{
         }
     }
 }
-@media only screen and (max-width: 425px){
-    footer{
-        .footer-row{
-            width: 100%;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            .footer-table{
-                flex-direction: column;
-                width: 50%;
-            }
-        }
+.footer-table-column{
+    width: 15%;
+    h6{
+        color: $blurple;
+        font-size: 1em;
+        font-weight: 100;
+    }
+    p{
+        color: #fff;
     }
 }
