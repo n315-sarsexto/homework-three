@@ -48,3 +48,18 @@
         
     }
 }
+
+@media only screen and (max-width: 768px){
+    .hiring{
+        .hiring-intro{
+            width: 95%;
+        }
+        .hiring-panel{
+            width: 95%;
+            flex-direction: column;
+            .hiring-text, .hiring-image{
+                width: 100%;
+            }
+        }
+    }
+}

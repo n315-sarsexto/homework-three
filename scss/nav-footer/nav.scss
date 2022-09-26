@@ -48,3 +48,21 @@ nav{
         }
     }
 }
+
+@media only screen and (max-width: 768px){
+    nav{
+        .nav-content{
+            width: 95%;
+
+            .nav-links{
+                width: 100%;
+            }
+            .logo{
+                display: none;
+            }
+            .button{
+                display: none;
+            }
+        }
+    }
+}

@@ -92,3 +92,26 @@
 .bg-gradient{
     background-image: linear-gradient($blurple, #db85f4);
 }
+
+@media only screen and (max-width: 768px){
+    .hero-color{
+        flex-direction: column;
+        padding-top: 100px;
+        .hero-content{
+            width: 90%;
+            flex-direction: column;
+
+            .hero-text{
+                width: 100%;
+                padding-bottom: 20px;
+
+                .buttons{
+                    flex-direction: column;
+                }
+            }
+        }
+        .hero-image{
+            width: 100%;
+        }
+    }
+}

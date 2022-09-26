@@ -10,6 +10,11 @@
         align-items: center;
         justify-content: space-evenly;
         margin: auto;
+        .panel-image{
+            img{
+                width: 650px;
+            }
+        }
         .panel-text{
             font-family: 'PT Sans', sans-serif;
             h2{
@@ -53,5 +58,28 @@
             cursor: pointer;
         }
 
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .even-panel{
+        padding-top: 50px;
+        .flex-img-right{
+            width: 95%;
+            flex-direction: column;
+
+            .panel-image{
+                img{
+                    width: 100%;
+                }
+            }
+
+        }
+        .flex-column{
+            width: 95%;
+            img{
+                width: 80%;
+            }
+        }
     }
 }

@@ -100,3 +100,28 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px){
+    .nitro-perks{
+        .perks-grid{
+            width: 95%;
+            .perks-row{
+                flex-direction: column;
+                margin-bottom: 0px;
+                .perks{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .persuade{
+            width: 95%;
+            h1{
+                font-size: xx-large;
+            }
+            .buttons{
+                flex-direction: column;
+            }
+        }
+    }
+}
